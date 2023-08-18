@@ -1,0 +1,31 @@
+﻿namespace Playstudios.Common.Enumerations
+{
+    public enum ErrorCodesEnum
+    {
+        Unknown,
+        UserNotFound,
+        UserEmailNotFound,
+        UserPasswordNotFound,
+        UserEmailAllreadyUsed,
+        InvalidLoginRequest,
+        InvalidLoginRequestEmail,
+        InvalidLoginRequestEmailFormat,
+        InvalidLoginRequestPassword,
+        InvalidUserRequest,
+        InvalidUserRequestName,
+        InvalidUserRequestLastName,
+        InvalidUserRequestEmail,
+        InvalidUserRequestEmailFormat,
+        InvalidUserRequestPassword,
+        SessionNotFound,
+        SessionExpired,
+        NullExecutingContext,
+        InvalidHttpArgument,
+        NullRequestMessage,
+        StringIsNotGuid,
+        SendEmailError,
+        InvalidResetPasswordRequest,
+        InvalidResetPasswordRequestEmail,
+        InvalidResetPasswordRequestEmailFormat,
+    }
+}

@@ -7,5 +7,5 @@ Playstudios.Core/bin/
 Playstudios.Core/obj/
 Playstudios.Data/bin/
 Playstudios.Data/obj/
-/Playstudios.Testing/bin/Debug/net6.0
-/Playstudios.Testing/obj
+Playstudios.Testing/bin/
+Playstudios.Testing/obj/

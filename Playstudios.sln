@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playstudios.Api", "Playstudios.Api\Playstudios.Api.csproj", "{62C161E4-2B09-44C6-A810-C10445FC94C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playstudios.Api", "Playstudios.Api\Playstudios.Api.csproj", "{62C161E4-2B09-44C6-A810-C10445FC94C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playstudios.Common", "Playstudios.Common\Playstudios.Common.csproj", "{8F13D194-E4BE-4EB6-A08A-DD42397DA0AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playstudios.Common", "Playstudios.Common\Playstudios.Common.csproj", "{8F13D194-E4BE-4EB6-A08A-DD42397DA0AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playstudios.Core", "Playstudios.Core\Playstudios.Core.csproj", "{153DBED6-FDEC-4E87-9A16-123723244CA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playstudios.Core", "Playstudios.Core\Playstudios.Core.csproj", "{153DBED6-FDEC-4E87-9A16-123723244CA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playstudios.Data", "Playstudios.Data\Playstudios.Data.csproj", "{22FC78BD-AA0C-4364-965D-5D632308A6C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playstudios.Data", "Playstudios.Data\Playstudios.Data.csproj", "{22FC78BD-AA0C-4364-965D-5D632308A6C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playstudios.Testing", "Playstudios.Testing\Playstudios.Testing.csproj", "{B46F827D-D887-4AD4-93A1-A0AFD3FFAF15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{22FC78BD-AA0C-4364-965D-5D632308A6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22FC78BD-AA0C-4364-965D-5D632308A6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22FC78BD-AA0C-4364-965D-5D632308A6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46F827D-D887-4AD4-93A1-A0AFD3FFAF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46F827D-D887-4AD4-93A1-A0AFD3FFAF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46F827D-D887-4AD4-93A1-A0AFD3FFAF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46F827D-D887-4AD4-93A1-A0AFD3FFAF15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

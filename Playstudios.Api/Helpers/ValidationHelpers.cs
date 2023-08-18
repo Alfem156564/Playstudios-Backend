@@ -7,8 +7,6 @@
     using System.Text.RegularExpressions;
     using System;
     using Playstudios.Common.Models;
-    using Microsoft.Azure.WebJobs.Host;
-    using System.Linq;
     using Microsoft.AspNetCore.Http;
 
     public static class ValidationHelpers
@@ -168,15 +166,15 @@
             var validator = new Validator<UpdatePasswordDto>(updatePasswordDto)
                 .AddBadRequestValidation(request =>
                     request == null,
-                    ErrorCodesEnum.InvalidResetPasswordRequest,
+                    ErrorCodesEnum.InvalidUpdatePasswordRequest,
                     "The update password request can't be null.")
                 .AddBadRequestValidation(request =>
                     string.IsNullOrWhiteSpace(request.Password),
-                    ErrorCodesEnum.InvalidResetPasswordRequestEmail,
+                    ErrorCodesEnum.InvalidUpdatePasswordRequestPassword,
                     "The update password request password can't be null or empty.")
                 .AddBadRequestValidation(request =>
                     string.IsNullOrWhiteSpace(request.ResetPasswordCode),
-                    ErrorCodesEnum.InvalidResetPasswordRequestEmailFormat,
+                    ErrorCodesEnum.InvalidUpdatePasswordRequestResetPasswordCode,
                     "The update password request reset code can't be null or empty.");
 
             return validator.Validate();

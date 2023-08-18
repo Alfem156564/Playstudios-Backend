@@ -27,5 +27,8 @@
         InvalidResetPasswordRequest,
         InvalidResetPasswordRequestEmail,
         InvalidResetPasswordRequestEmailFormat,
+        InvalidUpdatePasswordRequest,
+        InvalidUpdatePasswordRequestPassword,
+        InvalidUpdatePasswordRequestResetPasswordCode,
     }
 }

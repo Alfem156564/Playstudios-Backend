@@ -18,7 +18,8 @@
 
         public UserEntity? GetUserByResetPasswordCode(string resetPasswordCode) =>
             databaseContext.Users
-                .FirstOrDefault(user => user.ResetPasswordCode.Equals(resetPasswordCode));
+                .FirstOrDefault(user => user.ResetPasswordCode == resetPasswordCode);
+
 
         public async Task<UserEntity> CreateUser(string name,
             string lastName,

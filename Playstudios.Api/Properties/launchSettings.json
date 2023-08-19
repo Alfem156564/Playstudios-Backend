@@ -3,7 +3,6 @@
     "Playstudios.Api": {
       "commandName": "Project",
       "commandLineArgs": "--port 7259",
-      "launchBrowser": null,
       "environmentVariables": {
         "AzureWebJobsStorage": "UseDevelopmentStorage=true",
         "FUNCTIONS_WORKER_RUNTIME": "dotnet",

@@ -61,10 +61,8 @@
                 .ConfigureAwait(false);
 
             if (!emailProvider.SendResetPasswordCode(user.Email, user.Name, user.ResetPasswordCode))
-
-                if (user == null)
-                    return ManagerResult<ResponseDto>
-                        .FromError(ErrorCodesEnum.SendEmailError);
+                return ManagerResult<ResponseDto>
+                    .FromError(ErrorCodesEnum.SendEmailError);
 
             return ManagerResult<ResponseDto>
                 .FromSuccess(new ResponseDto

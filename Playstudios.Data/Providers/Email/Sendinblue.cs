@@ -58,7 +58,8 @@
 
         private bool SendEmail(string email, string name, string subject, string htmlContent)
         {
-            Configuration.Default.ApiKey.Add("api-key", config.BrevoApiKeyString);
+            if(!Configuration.Default.ApiKey.ContainsKey("api-key"))
+                Configuration.Default.ApiKey.Add("api-key", config.BrevoApiKeyString);
 
             var apiInstance = new TransactionalEmailsApi();
             string SenderName = "Alfem";

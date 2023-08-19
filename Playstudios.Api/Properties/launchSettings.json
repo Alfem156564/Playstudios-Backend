@@ -7,8 +7,8 @@
         "AzureWebJobsStorage": "UseDevelopmentStorage=true",
         "FUNCTIONS_WORKER_RUNTIME": "dotnet",
         "DefaultConnection": "Server=USER-PC\\ALFEM;Database=playstudio-dev-db;Integrated Security=True;TrustServerCertificate=True;",
-        "ResetPasswordUrl": "http://localhost:1234/account/reset-password?",
-        "BrevoApiKey": "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"
+        "ResetPasswordUrl": "http://localhost:4200/reset-password/",
+        "BrevoApiKey": "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"
       }
     }
   }
